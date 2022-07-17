@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Sans+Pro&display=swap');
+
+html {
+	display: flex;
+	justify-content: center;
+    scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 1200px;
+}
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+.navigation a {
+	margin: 0;
+    margin-right: 40px;
+    padding: 13px 0 0;
+    font-family: Hind,sans-serif;
+    color: #6e6d7a;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+	text-decoration: none;
+}
+.navigation a:hover{
+	color: #222;
+}
+.main-section {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 120px;
+}
+.main-section h1 {
+    color: #0d0c22;
+    font-weight: 500;
+	margin: 10px 0;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 600;
+    text-transform: none;
+}
+.main-section h2 {
+    color: #0d0c22;
+    font-weight: 500;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 500;
+    text-transform: none;
+	margin-bottom: 20px;
+}
+.main-section  .first-section {
+	max-width: 40%;
+}
+
+.projects-container {
+    margin-top: 100px;
+}
+.projects {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 70px;
+}
+.projects-container h1{
+    font-family: 'Source Sans Pro',sans-serif;
+    color: #0d0c22;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 800;
+    text-align: left;
+    text-transform: none;
+}
+.projects-container a {
+	margin: 0;
+    font-family: Hind,sans-serif;
+    color: #6e6d7a;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+	text-decoration: none;
+}
+.projects-container img {
+    height: 250px;
+    width: 100%;
+}
+.projects-container .title-container {
+    margin-top: 20px;
+    text-align: center;
+}
+#about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+#about p {
+    font-family: Hind,sans-serif !important;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 20px;
+    color: #0d0c22;
+}
+#about .paragraph {
+    width: 50%;
+}
